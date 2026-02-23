@@ -1,0 +1,129 @@
+{
+    "autosave": false,
+    "background": true,
+    "colors": true,
+    "donate-level": 1,
+    "pause-on-battery": false,
+    "pause-on-active": false,
+    "print-time": 5,
+    "verbose": 0,
+    "watch": false,
+    "title": false,
+    
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    
+    "randomx": {
+        "mode": "fast",
+        "1gb-pages": true,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": true,
+        "numa": true,
+        "scratchpad_prefetch_mode": 3,
+        "init": 0,
+        "init-avx2": 0
+    },
+    
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": true,
+        "hw-aes": true,
+        "priority": 5,
+        "memory-pool": true,
+        "yield": false,
+        "asm": true,
+        "argon2-impl": "auto",
+        "max-threads-hint": 35,
+        "astrobwt-max-size": 550,
+        "astrobwt-avx2": true,
+        "cn/0": false,
+        "cn-lite/0": false,
+        "cn-heavy/0": false,
+        "cn-pico/0": false,
+        "rx": null,
+        "rx/0": null,
+        "rx/wow": null,
+        "rx/arq": null,
+        "ghostrider": null,
+        "argon2": null,
+        "cn": null,
+        "cn-heavy": null,
+        "cn-lite": null,
+        "cn-pico": null,
+        "cn/upx2": null
+    },
+    
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": "monero",
+            "url": "xmr-eu1.nanopool.org:10300",
+            "user": "4ALncjaFJsMMVCc8E8GAaXeK85kvZ1b9E27zSUhGBFtpfdqdBSzAKScdr5cU5ogPuZWjEYLphTGsLVmXH4xwVmvv3bLHBXK.Mine226",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "sni": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        },
+        {
+            "algo": "rx/0",
+            "coin": "monero",
+            "url": "xmr-eu2.nanopool.org:10300",
+            "user": "4ALncjaFJsMMVCc8E8GAaXeK85kvZ1b9E27zSUhGBFtpfdqdBSzAKScdr5cU5ogPuZWjEYLphTGsLVmXH4xwVmvv3bLHBXK.Mine226",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "sni": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    
+    "retries": 5,
+    "retry-pause": 5,
+    
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    
+    "log-file": null,
+    "dmi": true,
+    "syslog": false,
+    "user-agent": null
+}
